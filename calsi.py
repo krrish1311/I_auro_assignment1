@@ -16,16 +16,17 @@ def division(first,second):
 def module(first,second):
     return first//second
 
-if 'a' or 'add' in operation:
+if 'addition'or "+" in operation:
     add(first_val,second_val)
 
-elif 's' or 'sub' in operation :
+elif 'subtraction' or "-" in operation :
     subtract(first_val,second_val)
-elif 'm'or 'mul' in operation:
+elif 'multiplication' or "*" in operation:
     multiplication(first_val,second_val)
     
-elif 'd' or 'dev' in operation :
+elif 'division' or "/" in operation :
     division(first_val,second_val)
+    
 elif 'mod' in operation:
     module(first_val, second_val)
     
