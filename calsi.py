@@ -14,14 +14,14 @@ def multiplication(first,second):
 def division(first,second):
     return first/second
 
-if operation=='a':
+if 'a' in operation:
     add(first_val,second_val)
 
-elif operation=='s':
+elif 's' in operation :
     subtract(first_val,second_val)
-elif operation == 'm':
+elif 'm' in operation:
     multiplication(first_val,second_val)
     
-elif operation == 'd':
+elif 'd' in operation :
     division(first_val,second_val)
     
