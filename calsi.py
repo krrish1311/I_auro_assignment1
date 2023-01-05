@@ -19,5 +19,9 @@ if operation=='a':
 
 elif operation=='s':
     subtract(first_val,second_val)
-
+elif operation == 'm':
+    multiplication(first_val,second_val)
+    
+elif operation == 'd':
+    division(first_val,second_val)
     
