@@ -13,3 +13,11 @@ def multiplication(first,second):
 
 def division(first,second):
     return first/second
+
+if operation=='a':
+    add(first_val,second_val)
+
+elif operation=='s':
+    subtract(first_val,second_val)
+
+    
